@@ -1,24 +1,22 @@
-# ENG. ROMANY GARGES — Personal Portfolio
+# ENG. ROMANY GARGES — Portfolio v2
 
-A bilingual (English/Arabic) responsive portfolio built with HTML, CSS, and vanilla JavaScript.
+Arabic-first, responsive multi-page portfolio using plain HTML, CSS, and JavaScript.
 
-## Files
-- `index.html` — page structure and content
-- `style.css` — styling and responsive layouts
-- `script.js` — language toggle and interactions
-- `assets/profile.jpg` — add your own real profile photo here
+## Pages
+- `index.html` — home
+- `projects.html` — project cards and category filters
+- `services.html` — services and service-request shortcuts
+- `contact.html` — WhatsApp, Instagram, email, GitHub and email-draft form
 
-## Add your photo
-Copy your photo into the `assets` folder and name it exactly `profile.jpg`. The site will display it automatically. If the file is missing, a placeholder remains visible.
+## Upload to the existing GitHub repository
+Upload the files in this folder to the **root** of `romany-garges-portfolio`, replacing `index.html`, `style.css`, `script.js`, and `README.md` when GitHub asks. Add the three new HTML pages. Keep the existing `profile.jpg` in the repository root; the home page reads it from `profile.jpg`.
 
-## Run locally
-Open `index.html` in a browser.
+## Before publishing
+1. Replace the Instagram link in `contact.html` with your real profile URL.
+2. Replace the WhatsApp URL with your full international phone number (Egypt: country code 20, without the leading 0), for example `https://wa.me/201XXXXXXXXX`.
+3. Review project descriptions and links so they accurately describe your current work.
+4. This contact form opens an email draft using `mailto:`; it does not send or store messages on a server.
+5. The language button currently switches navigation direction and labels, but the detailed page copy is Arabic-first. Full translation of all page content can be added in the next pass.
 
-## Publish with GitHub Pages
-1. Upload all files and the `assets` folder to the root of your repository.
-2. In GitHub, open **Settings → Pages**.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Select branch `main`, folder `/ (root)`, then click **Save**.
-5. Wait for the published URL shown in the Pages section.
-
-Review all project links and descriptions before sharing publicly.
+## Publish
+GitHub repository → Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
