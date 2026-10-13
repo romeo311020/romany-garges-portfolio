@@ -1,6 +1,6 @@
 # ENG. ROMANY GARGES — Portfolio v2
 
-Arabic-first, responsive multi-page portfolio using plain HTML, CSS, and JavaScript.
+Arabic-first, responsive multi-page portfolio with a black, white, and silver visual identity using plain HTML, CSS, and JavaScript.
 
 ## Pages
 - `index.html` — home
@@ -20,3 +20,9 @@ Upload the files in this folder to the **root** of `romany-garges-portfolio`, re
 
 ## Publish
 GitHub repository → Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+
+
+## Current repository notes
+- The home page profile image path is set to `assets/profile.jpg`, matching the existing repository structure shown by the user.
+- Before publishing, replace `201XXXXXXXXX` in `contact.html` with the real WhatsApp number in international format and replace `REPLACE_WITH_YOUR_USERNAME` with the real Instagram username.
+- This package uses a monochrome black, white, and silver palette; it does not intentionally reuse the reference site's colors.
